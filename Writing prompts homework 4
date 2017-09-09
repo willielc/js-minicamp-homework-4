@@ -1,0 +1,41 @@
+Callback Functions
+
+This ia a function that is used in another function as its parameter, which is 
+then later called and used inside the first function.  Unlike a function, the 
+callback function is  not executed immediately since it is inside a function, but 
+can be "called back" or executed at some specified point inside the function that 
+it is contained in.
+
+
+Closure
+
+A closure is a function that is able to reference another local variable of 
+another function.  Usually, a local variable can only be called inside the 
+function that is declared in, but a closure function is able to call this local 
+variable in another function.
+
+
+arguments
+
+Arguments are special variables in a function whenever the function is called. It 
+refers to an object that holds all the arguments passed to the function.
+
+
+Recursion
+
+Recursion is a function that can call itself inside its own function.  It does so
+by using its function name within its own function.
+
+
+prototype
+
+A prototype object is an object with properties and methods from which other 
+objects inherit its properties from.  All function and objects have an inherent 
+prototype object from which all other objects borrow their properties and methods 
+from.
+
+
+Constructors
+
+A constructor function is a function used for initializing new objects, and you 
+use the new object keyword to call the constructor.
